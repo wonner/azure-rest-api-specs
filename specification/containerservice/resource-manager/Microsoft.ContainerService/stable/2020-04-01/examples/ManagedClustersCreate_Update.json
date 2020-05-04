@@ -55,7 +55,9 @@
         },
         "autoScalerProfile": {
           "scan-interval": "20s",
-          "scale-down-delay-after-add": "15m"
+          "scale-down-delay-after-add": "15m",
+          "expander": "random",
+          "max-empty-bulk-delete": "40"
         },
         "windowsProfile": {
           "adminUsername": "azureuser",
@@ -155,7 +157,9 @@
           },
           "autoScalerProfile": {
             "scan-interval": "20s",
-            "scale-down-delay-after-add": "15m"
+            "scale-down-delay-after-add": "15m",
+            "expander": "random",
+            "max-empty-bulk-delete": "40"
           }
         }
       }

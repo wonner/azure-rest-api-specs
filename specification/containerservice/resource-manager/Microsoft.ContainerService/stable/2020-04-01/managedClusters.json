@@ -2004,6 +2004,14 @@
             "balance-similar-node-groups": {
               "type": "string"
             },
+            "expander": {
+              "type": "string",
+              "enum": [
+                "random",
+                "most-pods",
+                "least-waste"
+              ]
+            },
             "scan-interval": {
               "type": "string"
             },
@@ -2023,6 +2031,12 @@
               "type": "string"
             },
             "scale-down-utilization-threshold": {
+              "type": "string"
+            },
+            "skip-nodes-with-local-storage": {
+              "type": "string"
+            },
+            "max-empty-bulk-delete": {
               "type": "string"
             },
             "max-graceful-termination-sec": {
