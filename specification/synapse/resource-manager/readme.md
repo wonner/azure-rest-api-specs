@@ -332,7 +332,7 @@ csharp:
   output-folder: $(csharp-sdks-folder)/synapse/Microsoft.Azure.Management.Synapse/src/Generated
   clear-output-folder: true
 batch:
- - tag: package-2021-04-preview
+ - tag: package-2021-06
  - tag: package-sqlGen3-2020-04-01-preview
 ```
 
